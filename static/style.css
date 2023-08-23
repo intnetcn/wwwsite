@@ -1,0 +1,225 @@
+div.ss-auth {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 14px !important;
+  color: #666 !important;
+  position: absolute !important;
+  width: 330px !important;
+  height: auto !important;
+  left: 45% !important;
+  top: 60px !important;
+  background: #FFF !important;
+}
+
+div.ss-auth .btn {
+  padding: 10px 20px !important;
+  background: #F4F4F2 !important;
+}
+
+div.ss-auth .btn_red {
+  background: #ED6347 !important;
+  color: #FFF !important;
+}
+
+div.ss-auth .btn:hover {
+  background: #E4E4E2 !important;
+}
+
+div.ss-auth .btn_red:hover {
+  background: #C12B05 !important;
+}
+
+div.ss-auth a.btn {
+  color: #666 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+
+div.ss-auth a.btn_red {
+  color: #FFF !important;
+}
+
+div.ss-auth .one_half {
+  width: 50% !important;
+  display: block !important;
+  float: left !important;
+}
+
+div.ss-auth .one_half.last {
+  width: 45% !important;
+  margin-left: 5% !important;
+}
+
+div.ss-auth .popupHeader {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+}
+
+div.ss-auth .popupHeader {
+  background: #F4F4F2 !important;
+  position: relative !important;
+  padding: 10px 20px !important;
+  border-bottom: 1px solid #DDD !important;
+  font-weight: bold !important;
+}
+
+div.ss-auth .popupHeader .modal_close {
+  background: url(images/times.png) no-repeat left center !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 10px !important;
+  padding: 10px 15px !important;
+  cursor: pointer !important;
+  color: #aaa !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+}
+
+div.ss-auth .popupBody {
+  padding: 20px !important;
+}
+
+div.ss-auth .social_login .social_box {
+  display: block !important;
+  clear: both !important;
+  padding: 10px !important;
+  margin-bottom: 10px !important;
+  background: #F4F4F2 !important;
+  overflow: hidden !important;
+}
+
+div.ss-auth .social_login .icon {
+  display: block !important;
+  width: 10px !important;
+  padding-right: 10px !important;
+  padding-left: 5px !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  height: 30px !important;
+  float: left !important;
+  color: #FFF !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  text-align: center !important;
+}
+
+div.ss-auth .social_login .weibo {
+  background: url(images/login_weibo.png) no-repeat left center !important;
+}
+
+div.ss-auth .social_login .weixin {
+  background: url(images/login_weixin.png) no-repeat left center !important;
+}
+
+div.ss-auth .social_login .qq {
+  background: url(images/login_qq.png) no-repeat left center !important;
+}
+
+div.ss-auth .social_login .icon_title {
+  display: block !important;
+  padding: 5px 0 !important;
+  text-decoration: none !important;
+  float: left !important;
+  font-weight: bold !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 16px !important;
+  color: #777 !important;
+}
+
+div.ss-auth .social_login .social_box:hover {
+  background: #E4E4E2 !important;
+}
+
+div.ss-auth .centeredText {
+  text-align: center !important;
+  margin: 20px 0 !important;
+  clear: both !important;
+  overflow: hidden !important;
+}
+
+div.ss-auth .successText {
+  text-align: center !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 1.17em !important;
+  color: #4CAF50 !important;
+  margin: 15px 0 25px !important;
+  clear: both !important;
+  overflow: hidden !important;
+}
+
+div.ss-auth .errorText {
+  text-align: center !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 1.17em !important;
+  color: #ED6347 !important;
+  margin: 0 0 15px !important;
+  clear: both !important;
+  overflow: hidden !important;
+}
+
+div.ss-auth .action_btns {
+  clear: both !important;
+  overflow: hidden !important;
+}
+
+div.ss-auth .action_btns a {
+  display: block !important;
+}
+
+div.ss-auth .forgot_password {
+  display: block !important;
+  margin: 20px 0 10px !important;
+  clear: both !important;
+  overflow: hidden !important;
+  text-decoration: none !important;
+  color: #ED6347 !important;
+}
+
+div.ss-auth label {
+  display: block !important;
+  margin-bottom: 5px !important;
+}
+
+div.ss-auth input[type="text"],
+div.ss-auth input[type="email"],
+div.ss-auth input[type="password"] {
+  display: block !important;
+  width: 90% !important;
+  padding: 10px !important;
+  border: 1px solid #DDD !important;
+  color: #666 !important;
+}
+
+div.ss-auth input[type="checkbox"] {
+  float: left !important;
+  margin-right: 5px !important;
+}
+
+div.ss-auth input[type="checkbox"]+label {
+  float: left !important;
+}
+
+div.ss-auth .checkbox {
+  margin-bottom: 10px !important;
+  clear: both !important;
+  overflow: hidden !important;
+}
+
+div.ss-auth input.is-danger,
+textarea.is-danger {
+  border-color: #ff3860 !important;
+}
+
+#footer-tools{position:fixed;bottom:50%;right:20px;display:flex}#footer-tools .btn{color:#777;background:#eee;width:40px;height:40px;font-size:1rem;text-align:center;line-height:40px;padding:unset;display:block;border:unset}#footer-tools .go-up{display:none}#footer-tools .btn:hover{color:#444}#footer-tools [data-v-db6ccf64][data-v-41ba7e2c],#footer-tools [data-v-db6ccf64][data-v-6d083e75]{top:unset !important;bottom:0 !important;right:44px !important}#footer-tools .s-sticker-tmp{position:absolute !important;font-size:12px !important;top:-6px;left:18px;transform:scale(.82);padding:1px 5px;background:#f1404b;color:#fff !important;border-radius:50px;padding:1px 5px !important}.friendlink a{position:relative;display:inline-block;margin:.25rem .5rem .25rem .25rem}.friendlink a:before{content:'\2022';display:inline-block;position:relative;margin-right:5px}@media(max-width:767.98px){footer.main-footer .footer-text{text-align:center;float:none}#footer-tools{bottom:15px;right:10px}}#footer-tools a,#footer-tools a i.fa{font-size: 20px !important;margin-right:0!important}
+.m-1 {
+    margin: .25rem!important;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}.flex-column {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
